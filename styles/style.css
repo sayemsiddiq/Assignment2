@@ -129,6 +129,62 @@ color: rgba(255, 255, 255, 0.5);
 }
 
 /* section 2 style */
+.sec-3{
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 40px 55px 40px 55px;
+    border-radius: 2%;
+}
+.sec-3-main{
+    font-size: 48px;
+    font-weight: 900;
+
+}
+.sec-3-c{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+.sec-3-btn{
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 16px 60px 16px 60px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 30px;
+}
+
+.runimg{
+    border-radius: 3%;
+}
+
+/* bmi subject style */
+.bmi{
+    margin-top: 90px;
+    margin-bottom: 90px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bmi-sub{
+    font-size: 48px;
+    font-weight: 900px;
+    color: white;
+    margin-bottom: 0px;
+}
+.bmi-cmt{
+    font-size: 14px;
+    font-weight: 400px;
+    color: rgba(255, 255, 255, 0.5);
+    
+}
+
 
 
 
