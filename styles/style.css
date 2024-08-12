@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-uniquifier {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color:rgb(255, 255, 255);
+}
+
+/* navbar styles */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 60px;
+    align-items: center;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    gap: 47px;
+
+}
+.nav-l{
+    color: rgb(230, 83, 60);
+    font-size: 36px;
+    font-weight: 800;
+}
+.l1{
+    color: white;
+    background-color:rgb(230, 83, 60) ;
+    border-radius: 46px;
+    padding:10px 18px 10px 18px;
+}
+.nav-r{
+    align-items: center;
+}
+.l2{
+    padding:10px 14px 10px 14px;
+}
+
+/* section 1 style */
+.sec-1{
+    height: 480px;
+    background: url(/images/Images\ 2.png) no-repeat;
+    background-position: right;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.big-line{
+    font-size: 78px;
+    font-weight: 900;
+}
+.shape{
+    font-family:
+}
+.p1{
+    font-size: 16px;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.5);
+    margin-bottom: 28px;
+}
+.sec-1-btn{
+    display: flex;
+    gap: 20px;
+}
+.sec-1-btn-1{
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    color: white;
+    padding: 16px 40px 16px 40px;
+
+}
+.sec-1-btn-2{
+    border-radius: 42px;
+    background: rgb(0, 0, 0);
+    color: white;
+    padding: 16px 40px 16px 40px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+/* section 2 style */
+.sec-2{
+   margin: 100px 200px 100px 200px;
+
+}
+.sec-2-sub{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+}
+.sec-2-cmt{
+text-align: center;
+font-size: 14px;
+font-weight: 400;
+color: rgba(255, 255, 255, 0.5);
+}
+.sec-2-main{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 60px;
+
+}
+.task{
+    text-align: center;
+font-size: 18px;
+font-weight: 600px;
+}
+.task-c{
+    text-align: center;
+font-size: 14px;
+font-weight: 400px;
+color: rgba(255, 255, 255, 0.5);
+}
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+/* section 2 style */
+
+
+
