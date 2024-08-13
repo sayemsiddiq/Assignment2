@@ -16,7 +16,6 @@
     justify-content: space-between;
     margin-left: 200px;
     margin-right: 200px;
-    margin-top: 60px;
     align-items: center;
 }
 .list{
@@ -184,6 +183,176 @@ color: rgba(255, 255, 255, 0.5);
     color: rgba(255, 255, 255, 0.5);
     
 }
+table,th,td {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-collapse: collapse;
+}
+.td{
+    padding: 15px 15px 15px 15px;
+    color: rgba(255, 255, 255, 0.5);
+}
+th {
+    padding:15px 15px 15px 15px ;
+}
+.sec-4{
+    background-color: rgb(34, 34, 34);
+    padding: 50px 300px 50px 200px 
+}
+.sec-4-main{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+  justify-content: center; 
+
+}
+
+.input{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color:rgba(255, 255, 255, 0.6) ;
+    padding: 18px;
+    padding-right: 0px;
+    width:95%
+}
+.select{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color:rgba(255, 255, 255, 0.6);
+    padding: 18px;
+    width: 100%;
+} 
+.cal{
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 20px 60px 20px 60px;
+    font-size: 18px;
+    font-weight: 600;
+    color:white;
+    margin-top: 35px;
+}
+/* .input-div{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+} */
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    
+}
+/* .item1,.item2,.item3,.item4,.item5{
+    width: 100%;
+} */
+.item5{
+    grid-column-start: 1;
+    grid-column-end:3 ;
+}
+
+/* section5 style */
+.gridd-container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 60px;
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content:space-around;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 18px;
+    margin-bottom: 88px;
+}
+.itemm-1{
+    background: url(/images/trainer1.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 272px;
+    border-radius: 18px;
+ 
+}
+.itemm-2{
+background: url(/images/trainer2.png);
+background-repeat: no-repeat;
+    background-size: cover;
+    height: 272px;
+    border-radius: 18px;
+   
+}
+.itemm-3{
+background: url(/images/trainer3.png);
+background-repeat: no-repeat;
+    background-size: cover;
+    height: 272px;
+    border-radius: 18px;
+    
+}
+.itemm-4{
+background: url(/images/trainer4\ \(1\).png);
+background-repeat: no-repeat;
+    background-size: cover;
+    height: 272px;
+    border-radius: 18px;
+     
+}
+.itemm-5{
+background: url(/images/trainer5.png);
+background-repeat: no-repeat;
+    background-size: cover;
+    height: 272px;
+    border-radius: 18px;
+  
+}
+.itemm-6{
+background: url(/images/trainer6.png);
+background-repeat: no-repeat;
+    background-size: cover;
+    height: 272px;
+    border-radius: 18px;
+   
+}
+.trainer-nam{
+    margin-top: 50%;
+    margin-left: 5%;
+}
+.trainer{
+    margin-left: 5%;
+    color:rgba(255, 255, 255, 0.5) ;
+}
+/* footer design */
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+}
+.sell1{
+    width:400px;
+    text-align: left;
+}
+.footer-head{
+    font-size: 70px;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+}
+.footer-sub{
+    font-size: 32px;
+    font-weight: 700;
+}
+.support{
+    font-size: 23px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    
+}
+
+
+
+
+
+
 
 
 
