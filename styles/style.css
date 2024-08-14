@@ -1,6 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
+/* *{
+    border: 1px solid red;
+} */
 
 .inter-uniquifier {
   font-family: "Inter", sans-serif;
@@ -11,47 +13,50 @@
 }
 
 /* navbar styles */
-.navbar{
+nav{
     display: flex;
+    flex-direction:row;
     justify-content: space-between;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
     align-items: center;
 }
-.list{
-    display: flex;
-    flex-direction: row;
+nav ul li a{
     text-decoration: none;
-    list-style: none;
-    gap: 47px;
-
+    color: white;
+    align-items: center;
 }
-.nav-l{
-    color: rgb(230, 83, 60);
+nav ul li{
+    list-style: none;
+    text-align: center;
+}
+nav ul{
+    display: flex;
+    gap: 40px;
+}
+#home{
+    border-radius: 36px;
+    background: rgb(230, 83, 60);
+    padding: 4px 10px 4px 10px;
+}
+nav div h2{
     font-size: 36px;
     font-weight: 800;
+    color: rgb(230, 83, 60);
 }
-.l1{
-    color: white;
-    background-color:rgb(230, 83, 60) ;
-    border-radius: 46px;
-    padding:10px 18px 10px 18px;
-}
-.nav-r{
-    align-items: center;
-}
-.l2{
-    padding:10px 14px 10px 14px;
+.menu-icon{
+    display: none;
 }
 
 @media only screen and (max-width: 576px){
-    .navbar{
-         gap: 20%;
-        justify-content:space-evenly;
-    }
-    .nav-l{
-        font-size: 60px;
-    }
+  
+ nav ul{
+    display: none;
+ }
+ .menu-icon{
+    display: inline-block;
+    float: right;
+ }
 
 }
 
@@ -128,11 +133,26 @@ width: 15%;
         display: flex;
         flex-direction:column;
         width: 100%;
+        margin-left: 0;
+   
+    }
+    .ex-btn1{
+        position: absolute; right: 100px; top: 170px;
+    }
+    .body2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
     }
     .sec-1-btn{
 margin-left: 15%;
 
     }
+    .sec-div1{
+        padding: 5%;
+    }
+
 }
 
 /* section 2 style */
@@ -214,6 +234,20 @@ color: rgba(255, 255, 255, 0.5);
     border-radius: 3%;
 }
 
+@media only screen and (max-width: 576px)
+{
+    .sec-2-main{
+        flex-direction: column;
+    }
+
+    .sec-3{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+}
+
+
 /* bmi subject style */
 .bmi{
     margin-top: 90px;
@@ -234,6 +268,15 @@ color: rgba(255, 255, 255, 0.5);
     color: rgba(255, 255, 255, 0.5);
     
 }
+
+@media only screen and (max-width: 576px)
+{
+    .bmi{
+        margin-left:10%;
+    } 
+
+}
+
 table,th,td {
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-collapse: collapse;
@@ -256,6 +299,19 @@ th {
   justify-content: center; 
 
 }
+
+@media only screen and (max-width: 576px){
+ 
+    /* .sec-4{
+        margin-left: 10%;
+    } */
+    .sec-4-main{
+        flex-direction: column;
+    
+    }
+}
+
+
 
 .input{
     border-radius: 8px;
@@ -281,20 +337,12 @@ th {
     color:white;
     margin-top: 5%;
 }
-/* .input-div{
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-} */
 .grid-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     
 }
-/* .item1,.item2,.item3,.item4,.item5{
-    width: 100%;
-} */
 .item5{
     grid-column-start: 1;
     grid-column-end:3 ;
@@ -370,6 +418,12 @@ background-repeat: no-repeat;
     margin-left: 5%;
     color:rgba(255, 255, 255, 0.5) ;
 }
+
+@media only screen and (max-width: 576px){
+    .gridd-container{
+        grid-template-columns: 1fr;
+    }
+}
 /* footer design */
 
 .footer{
@@ -398,6 +452,19 @@ background-repeat: no-repeat;
     color: rgba(255, 255, 255, 0.5);
     
 }
+
+
+@media only screen and (max-width: 576px){
+    .footer{
+        flex-direction: column;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .sell1{
+        width: 100%;
+    }  
+}
+
 /* section 6 style */
 .sec-6{
     background-image: url(/images/inside.jpg);
@@ -438,6 +505,20 @@ background-repeat: no-repeat;
     margin-top: 20px;
     
 }
+
+@media only screen and (max-width: 576px){
+    .sec-6{
+        height:auto;
+    }
+    .unique{
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+
+
+/* media query is best suitable for 576x1082 screen */
 
 
 
