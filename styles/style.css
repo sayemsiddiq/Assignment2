@@ -363,7 +363,7 @@ th {
     margin-bottom: 88px;
 }
 .itemm-1{
-    background: url(../images/trainer1.png);
+    background: url('../images/trainer1.png');
     background-repeat: no-repeat;
     background-size:cover;
     height: 272px;;
@@ -371,7 +371,7 @@ th {
  
 }
 .itemm-2{
-background: url(../images/trainer2.png);
+background: url('../images/trainer2.png');
 background-repeat: no-repeat;
     background-size: cover;
     height: 272px;
@@ -379,7 +379,7 @@ background-repeat: no-repeat;
    
 }
 .itemm-3{
-background: url(../images/trainer3.png);
+background: url('../images/trainer3.png');
 background-repeat: no-repeat;
     background-size: cover;
     height: 272px;
@@ -387,7 +387,7 @@ background-repeat: no-repeat;
     
 }
 .itemm-4{
-background: url(../images/trainer4\ \(1\).png);
+background: url('../images/trainer4.png');
 background-repeat: no-repeat;
     background-size: cover;
     height: 272px;
@@ -395,7 +395,7 @@ background-repeat: no-repeat;
      
 }
 .itemm-5{
-background: url(../images/trainer5.png);
+background: url('../images/trainer5.png');
 background-repeat: no-repeat;
     background-size: cover;
     height: 272px;
@@ -403,7 +403,7 @@ background-repeat: no-repeat;
   
 }
 .itemm-6{
-background: url(../images/trainer6.png);
+background: url('../images/trainer6.png');
 background-repeat: no-repeat;
     background-size: cover;
     height: 272px;
@@ -467,7 +467,7 @@ background-repeat: no-repeat;
 
 /* section 6 style */
 .sec-6{
-    background-image: url(../images/inside.jpg);
+    background-image: url('../images/inside.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
